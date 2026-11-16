@@ -95,10 +95,7 @@ page = requests.get("https://example.com")
 soup = BeautifulSoup(page.content, 'html.parser')
 print(soup.title.text)
 
-# f. TensorFlow
-import tensorflow as tf
-hello = tf.constant('Hello, TensorFlow!')
-print(hello)
+
 
 # g. Django and Flask
 # pip install django
