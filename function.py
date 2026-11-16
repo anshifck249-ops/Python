@@ -142,9 +142,9 @@
 
 
 # Order of Arguments:
-def full_function_example(param1, *args, **kwargs):
-    print("Regular parameter:", param1)
-    print("Positional arguments:", args)
-    print("Keyword arguments:", kwargs)
+# def full_function_example(param1, *args, **kwargs):
+#     print("Regular parameter:", param1)
+#     print("Positional arguments:", args)
+#     print("Keyword arguments:", kwargs)
 
-full_function_example(10, 20, 30, name="anshif", age=19)
+# full_function_example(10, 20, 30, name="anshif", age=19)
